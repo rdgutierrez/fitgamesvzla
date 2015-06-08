@@ -1,0 +1,99 @@
+	#topbanner{
+	background-color: #000;
+	padding-top: 2em;
+	padding-bottom: 1em;
+
+	}
+	#bottombanner{
+	background-color: #000;
+	padding-top: 2em;
+	padding-bottom: 1em;
+
+	}
+		#headerhome{
+	background-image: url(../img/fitgames-2015-header.jpg);
+	padding-top: 4em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height:458px;
+	border-bottom: 7px solid #fd3a42;
+
+		}
+
+	.white{
+		color:#fff;
+	}
+	.fuerte{
+		font-size: 3em;
+		font-weight: bold;
+	}
+
+#box-derecha{
+		padding-top: 5em;
+	}
+
+	.pt2{
+		padding-top: 2em;
+	}
+
+		#info{
+
+	padding-top: 4em;
+
+	min-height:458px;
+	border-bottom: 7px solid #fd3a42;
+
+		}
+#descargaapp{
+
+	padding-top: 4em;
+	background-color: #2b2e37;
+	min-height:458px;
+	border-bottom: 7px solid #fd3a42;
+
+		}
+
+		#box-left-app{
+			padding-top: 4em;
+		}
+
+#sponsors{
+	background-image: url(../img/sponsors-fit-games-venezuela.jpg);
+	padding-top: 4em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height:458px;
+	border-bottom: 7px solid #fd3a42;
+
+		}
+
+#calltoaction{
+	padding-top: 4em;
+	background-color: #fd3a42;
+	min-height:200px;
+
+}
+
+#footer{
+	padding-top: 4em;
+	background-color: #262D37;
+	min-height:458px;
+
+}
+#creditos{
+	padding-top: 2em;
+	background-color: #000000;
+	min-height:70px;
+
+}
+#creditos p {
+
+color: #fff;
+font-size: 0.8em;
+}
+#creditos a {
+
+color: orange;
+
+}
+
