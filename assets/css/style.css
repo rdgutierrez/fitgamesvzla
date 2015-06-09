@@ -20,6 +20,28 @@
 
 		}
 
+	#registro{
+	background-image: url(../img/fitgames-2015-header.jpg);
+	padding-top: 4em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height:590px;
+	border-bottom: 7px solid #fd3a42;
+
+		}
+
+	#registroform{
+		padding-top: 3em;
+		background-color: #fff;
+	}
+
+	#sidebar{
+		margin-top: 4em;
+		padding: 10px;
+		background-color: #e8ebee;
+		min-height: 600px;
+	}
+
 	.white{
 		color:#fff;
 	}
