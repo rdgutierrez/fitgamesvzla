@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="bower_components/foundation/css/foundation.css"/>
 <script src="bower_components/modernizr/js/modernizr.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css"/>
 
 </head>
 <body>
@@ -38,8 +39,8 @@
 <section id="topbanner">
 	<div class="row">
 
-		<div class="large-12 medium-12 small-12 columns">
-			<p class="text-center"><img src="assets/img/banner1.jpg" alt=""></p>
+		<div class="large-9 large-centered medium-9 medium-centered small-12 columns">
+			<img src="assets/img/banner1.jpg" alt="">
 		
 		</div>
 
@@ -156,10 +157,53 @@ Femenino Rx / Scaled</p>
 	<div class="row">
 
 		<div class="large-12 medium-12 small-12 columns">
-			<h2 CLASS="text-center fuerte">NUESTROS PATROCINANTES</h2>
+			<h2 CLASS="text-center fuerte">PATROCINANTES GOLD</h2>
 		
 		</div>
 
+		<div class="large-10 large-centered medium-10 medium-centered small-12 columns">
+			
+			<div class="row">
+	
+			<div class="large-3 medium-3 small-12 columns">
+				<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
+			
+			</div>
+
+			<div class="large-3 medium-3 small-12 columns">
+				<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
+			
+			</div>
+
+			<div class="large-3 medium-3 small-12 columns">
+				<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
+			
+			</div>
+
+			<div class="large-3 medium-3 small-12 columns">
+				<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
+			
+			</div>
+
+			</div>
+		</div>
+
+
+	</div>
+
+</section>
+
+<section id="sponsors">
+	<div class="row">
+
+		<div class="large-12 medium-12 small-12 columns">
+			<h2 CLASS="text-center fuerte">PATROCINANTES SILVER</h2>
+		
+		</div>
+		
+	<div class="large-12 medium-12 small-12 columns">
+			<div class="row"><!-- ROW slider   -->
+		<div class="slider">
 		<div class="large-3 medium-3 small-12 columns">
 			<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
 		
@@ -179,6 +223,42 @@ Femenino Rx / Scaled</p>
 			<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
 		
 		</div>
+
+		<div class="large-3 medium-3 small-12 columns">
+			<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
+		
+		</div>
+
+
+				<div class="large-3 medium-3 small-12 columns">
+			<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
+		
+		</div>
+
+		<div class="large-3 medium-3 small-12 columns">
+			<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
+		
+		</div>
+
+		<div class="large-3 medium-3 small-12 columns">
+			<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
+		
+		</div>
+
+		<div class="large-3 medium-3 small-12 columns">
+			<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
+		
+		</div>
+
+		<div class="large-3 medium-3 small-12 columns">
+			<p class="text-center"><img src="assets/img/logo-fit-games-2015-venezuela.png" alt=""></p>
+		
+		</div>
+
+     </div>
+			</div><!-- Termina ROW slider   -->
+
+	</div>
 	
 
 	</div>
@@ -206,8 +286,8 @@ Femenino Rx / Scaled</p>
 <section id="bottombanner">
 	<div class="row">
 
-		<div class="large-12 medium-12 small-12 columns">
-			<p class="text-center"><img src="assets/img/banner1.jpg" alt=""></p>
+	<div class="large-9 large-centered medium-9 medium-centered small-12 columns">
+			<img src="assets/img/banner1.jpg" alt="">
 		
 		</div>
 
@@ -296,6 +376,19 @@ Femenino Rx / Scaled</p>
     $(document).foundation();
   </script>
 
+     <!-- ############### PLUGIN SLICK PARA EL CARRUSEL DE SPONSORS ################  -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+	 <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slider').slick({
+          slidesToShow: 5,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  arrows: false,
+      });
+    });
+  </script>
 
     <!-- ############### TERMINAn SCRIPTS ################  -->
 </body>

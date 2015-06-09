@@ -1,13 +1,15 @@
 	#topbanner{
 	background-color: #000;
-	padding-top: 2em;
-	padding-bottom: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
+	
 
 	}
+
 	#bottombanner{
 	background-color: #000;
-	padding-top: 2em;
-	padding-bottom: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
 
 	}
 		#headerhome{
@@ -80,6 +82,16 @@
 		}
 
 #sponsors{
+	background-image: url(../img/sponsors-fit-games-venezuela.jpg);
+	padding-top: 4em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height:458px;
+	border-bottom: 7px solid #fd3a42;
+
+		}
+
+#sponsorsplata{
 	background-image: url(../img/sponsors-fit-games-venezuela.jpg);
 	padding-top: 4em;
 	background-size: cover;
