@@ -18,7 +18,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height:458px;
-	border-bottom: 7px solid #fd3a42;
+	border-bottom: 7px solid #cd0b0f;
 
 		}
 
@@ -28,7 +28,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height:590px;
-	border-bottom: 7px solid #fd3a42;
+	border-bottom: 7px solid #cd0b0f;
 
 		}
 
@@ -50,6 +50,12 @@
 	.fuerte{
 		font-size: 3em;
 		font-weight: bold;
+	}
+	.rojo{
+		color:#cd0b0f;
+	}
+	.gris{
+		color:#BDBDBD;
 	}
 
 #box-derecha{
@@ -73,7 +79,7 @@
 	padding-top: 4em;
 	background-color: #2b2e37;
 	min-height:458px;
-	border-bottom: 7px solid #fd3a42;
+	border-bottom: 7px solid #cd0b0f;
 
 		}
 
@@ -82,24 +88,47 @@
 		}
 
 #sponsors{
-	background-image: url(../img/sponsors-fit-games-venezuela.jpg);
+	background-image: url(../img/seccion-sponsors-fit-games.jpg);
 	padding-top: 4em;
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height:458px;
-	border-bottom: 7px solid #fd3a42;
+	border-bottom: 7px solid #cd0b0f;
 
 		}
 
 #sponsorsplata{
-	background-image: url(../img/sponsors-fit-games-venezuela.jpg);
+	background-image: url(../img/seccion-sponsors-plata.jpg);
 	padding-top: 4em;
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height:458px;
-	border-bottom: 7px solid #fd3a42;
+	border-bottom: 7px solid #cd0b0f;
 
 		}
+#headeracerca{
+	background-image: url(../img/fit-games-cover.jpg);
+	padding-top: 4em;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	min-height:684px;
+
+
+		}
+#seccionacerca{
+	background-image: url(../img/seccion-acerca.jpg);
+	padding-top: 4em;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	min-height:658px;
+
+
+		}
+#acercatext p{
+	font-size: 1.2em;
+}
 
 #calltoaction{
 	padding-top: 4em;
