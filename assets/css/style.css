@@ -76,6 +76,9 @@ h1, h2, h3, h4, h5{
 		.pt6{
 		padding-top: 6em;
 	}
+	.pt12{
+		padding-top: 12em;
+	}
 	.mt3{
 		margin-top: 3em;
 	}
@@ -241,4 +244,7 @@ video{
  
 .brighten img:hover {
   -webkit-filter: grayscale(0%);
+}
+#redes{
+	background-color: #ffffff;
 }
