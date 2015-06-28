@@ -4,6 +4,11 @@
 	padding-bottom: 0;
 	
 	}
+	#topbanner img{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
 h1, h2, h3, h4, h5{
 	   font-family: 'Anton', sans-serif;
  
@@ -15,7 +20,18 @@ h1, h2, h3, h4, h5{
 
 
 	}
+
+		#bottombanner img{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.paddingcero{
+      padding:0;
+	}
 		#headerhome{
+	}
 	background-image: url(../img/fitgames-2015-header.jpg);
 	padding-top: 4em;
 	background-size: cover;
@@ -129,13 +145,7 @@ h1, h2, h3, h4, h5{
 
 		}
 #headeracerca{
-	background-image: url(../img/fit-games-cover.jpg);
-	padding-top: 4em;
-	background-size: cover;
-	background-position: top;
-	background-repeat: no-repeat;
-	min-height:684px;
-
+	background-color:#000000;
 
 		}
 #seccionacerca{
