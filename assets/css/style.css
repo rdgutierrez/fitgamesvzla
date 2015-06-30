@@ -88,6 +88,17 @@ h1, h2, h3, h4, h5{
 	.pt2{
 		padding-top: 2em;
 	}
+	.pb2{
+		padding-bottom: 2em;
+	}
+
+			.pt4{
+		padding-top: 4em;
+	}
+		.pb4{
+		padding-bottom: 4em;
+	}
+
 
 		.pt6{
 		padding-top: 6em;
@@ -158,6 +169,15 @@ h1, h2, h3, h4, h5{
 
 
 		}
+
+#campeon{
+		background-image: url(../img/fit-games-campeon.jpg);
+	padding-top: 4em;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	min-height:658px;
+}
 #acercatext p{
 	font-size: 1.2em;
 }
@@ -255,4 +275,7 @@ video{
 }
 #redes{
 	background-color: #ffffff;
+}
+#aliados{
+	background-color: #2b2e37;
 }
