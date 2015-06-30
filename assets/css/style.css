@@ -279,3 +279,7 @@ video{
 #aliados{
 	background-color: #2b2e37;
 }
+.text-cargo{
+	font-size: 0.9em;
+	font-style: italic;
+}
